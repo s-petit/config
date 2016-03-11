@@ -1,0 +1,107 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[alias]
+	st = status
+	ft = fetch
+	br = branch
+    	co = checkout
+	l = log --pretty=format:'%Cred%h%Creset - %s %Cgreen(%cr) %C(bold blue)<%an>%Creset %C(yellow)%d%Creset' --abbrev-commit --
+        lg = log --graph --all --pretty=format:'%Cred%h%Creset - %s %Cgreen(%cr) %C(bold blue)<%an>%Creset %C(yellow)%d%Creset' --abbrev-commit --
+	pr = pull -r
+[user]
+	name = Stéphane Petit
+	email = spetit@mirakl.com
+[push]
+	default = simple
+[remote "origin"]
+	url = https://s-petit:97aaf15b31994f0eab6a6833e25131c8a763b6eb@github.com/mirakl/marketplace-platform.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "develop"]
+	remote = origin
+	merge = refs/heads/develop
+[difftool]
+  prompt = false
+[branch "release/3.15"]
+	remote = origin
+	merge = refs/heads/release/3.15
+[branch "bugs/3.15.5"]
+	remote = origin
+	merge = refs/heads/bugs/3.15.5
+[branch "bugs/3.16"]
+	remote = origin
+	merge = refs/heads/bugs/3.16
+[branch "bugs/3.15"]
+	remote = origin
+	merge = refs/heads/bugs/3.15
+[branch "bugs/3.14"]
+	remote = origin
+	merge = refs/heads/bugs/3.14
+[branch "bugs/3.17"]
+	remote = origin
+	merge = refs/heads/bugs/3.17
+[branch "bugs/3.18"]
+	remote = origin
+	merge = refs/heads/bugs/3.18
+[branch "bugs/3.19"]
+	remote = origin
+	merge = refs/heads/bugs/3.19
+[branch "feature/MMP-3912"]
+	remote = origin
+	merge = refs/heads/feature/MMP-3912
+[remote "sdk-origin"]
+	url = ../mirakl-sdk-java
+	fetch = +refs/heads/*:refs/remotes/sdk-origin/*
+[branch "sdk-to-merge"]
+	remote = sdk-origin
+	merge = refs/heads/spe/SDKMove
+[branch "develop-bla"]
+	remote = origin
+	merge = refs/heads/develop-bla
+[branch "spe/SDKMigration"]
+	remote = origin
+	merge = refs/heads/spe/SDKMigration
+[branch "feature/MMP-3607"]
+	remote = origin
+	merge = refs/heads/feature/MMP-3607
+[branch "feature/MMP-4068"]
+	remote = origin
+	merge = refs/heads/feature/MMP-4068
+[branch "feature/MMP-3822"]
+	remote = origin
+	merge = refs/heads/feature/MMP-3822
+[branch "feature/MMP-3649"]
+	remote = origin
+	merge = refs/heads/feature/MMP-3649
+[branch "feature/MMP-4237"]
+	remote = origin
+	merge = refs/heads/feature/MMP-4237
+[branch "bugs/3.20"]
+	remote = origin
+	merge = refs/heads/bugs/3.20
+[branch "feature/MMP-4280"]
+	remote = origin
+	merge = refs/heads/feature/MMP-4280
+[branch "feature/MMP-4064-final"]
+	remote = origin
+	merge = refs/heads/feature/MMP-4064-final
+[branch "feature/MMP-4064"]
+	remote = origin
+	merge = refs/heads/feature/MMP-4064
+[branch "bugs/3.21"]
+	remote = origin
+	merge = refs/heads/bugs/3.21
+[branch "feature/MMP-4495"]
+	remote = origin
+	merge = refs/heads/feature/MMP-4495
+[branch "feature/MMP-4064-final-rebased"]
+	remote = origin
+	merge = refs/heads/feature/MMP-4064-final-rebased
+[branch "tech/MMP-4456"]
+	remote = origin
+	merge = refs/heads/tech/MMP-4456
+[branch "feature/MMP-4441"]
+	remote = origin
+	merge = refs/heads/feature/MMP-4441
