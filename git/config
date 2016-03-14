@@ -17,7 +17,7 @@
 [push]
 	default = simple
 [remote "origin"]
-	url = https://s-petit:97aaf15b31994f0eab6a6833e25131c8a763b6eb@github.com/mirakl/marketplace-platform.git
+	url = https://s-petit@github.com/mirakl/marketplace-platform.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "develop"]
 	remote = origin
